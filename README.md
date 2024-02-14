@@ -5,9 +5,6 @@ Api desenvolvida utilizando as tecnologias Nodejs, typescript, express
 Banco de dados: sqlite
 ORM: typeorm
 
-Para criar as migrações basta executar o cmd a seguir
-npm run typeorm migration:run -- -d src/data-source.ts
-
 Rotas dísponíveis
 - POST "/users" (cadastro usuário) 
 - POST "/auth" (gera token jwt)
